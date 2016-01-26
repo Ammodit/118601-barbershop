@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <a class="logo" href="shop.html">
+          <img width="100" height="50" src="http://placehold.it/50x25" alt="Barbershop">
+        </a>
+
+        <nav class="main-menu">
+          <ul>
+            <li class="main-menu-item">Информация</li>
+            <li class="main-menu-item">Новости</li>
+            <li class="main-menu-item">Прайс-лист</li>
+            <li class="main-menu-item current">Магазин</li>
+            <li class="main-menu-item">Контакты</li>
+          </ul>
+        </nav>
+
+        <div class="user-block">
+          <a class="login-trigger" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Набор для путешествий "Baxter of California</h1>
+      <nav class="breadcrumbs">
+        <ul>
+          <li class="breadcrumbs-item">Главная</li>
+          <li class="breadcrumbs-item">Магазин</li>
+          <li class="breadcrumbs-item">Средства для ухода</li>
+          <li class="breadcrumbs-item current">Набор для путешествий "Baxter of California"</li>
+        </ul>
+      </nav>
+
+      <section class="photos">
+        <img class="photos-items" width="250" height="250" src="http://placehold.it/250x250" alt="">
+        <img class="photos-items" width="25" height="25" src="http://placehold.it/25x25" alt="">
+        <img class="photos-items" width="25" height="25" src="http://placehold.it/25x25" alt="">
+        <img class="photos-items" width="25" height="25" src="http://placehold.it/25x25" alt="">
+      </section>
+
+      <section class="description">
+        <span>Есть в наличии</span>
+        <span>Артикул:DEXTER-AE</span>
+        <!-- Я не использую тэги h1-h6, тк это не содержтельные фразы и они ничго не "озаклавливают"-->
+        <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+
+        <div class="add-to-cart">
+          2 900 руб.
+          <a class="button" href="#">Купить</a>
+        </div>
+
+        <h2>В набор входят:</h2>
+        <!-- Я не даю отдельный стиль этому заголовку, тк он, во-первых, тут один, во-вторых, его можно стилизовать как .description h2 {} -->
+        <ul class="description-contents">
+          <li>Средство для умывания (50 мл)</li>
+          <li>Увлажняющий крем (50 мл)</li>
+          <li>Кремя для бритья (50 мл)</li>
+          <li>Крем после бритья, шампунь (50мл)</li>
+          <li>Удобная кожаная косметичка</li>
+          <!-- Нужны ли отельные классы элементам списка? Вроде, они никак особо не силизованы, просто текст -->
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп "Бородинский"<br>
+          Адрес: г.Санкт-Петербург, ул. Б.Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (495) 666-02-66
+        </section>
+
+        <section class="footer-social">
+          Давайе дружить!<br>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-in" href="#">Инстаграмм</a>
+        </section>
+
+        <section class="footer-copyright">
+          Разработано:<br>
+          <a class="button" href="#">htmlacademy.ru</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
