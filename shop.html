@@ -9,7 +9,7 @@
   	<header class="main-header">
   		<div class="container">
         <a class="logo" href="shop.html">
-          <img width="100" height="50" src="http://placehold.it/50x25" alt="Barbershop">
+          <img width="111" height="24" src="img/Header/logo_barbershop.svg" alt="Barbershop">
         </a>
 
   			<nav class="main-menu">
@@ -41,7 +41,7 @@
       <section class="sorting">
   		  <form class="producers" action="#" method="post">
         <!-- Надо ли обе группы сортировки заключать в div'ы? -->
-          <h2>Производители</h2>
+          <legend>Производители</legend>
             <label>
   					 <input type="checkbox" name="producers" checked>
   					 Baxter of California
@@ -67,7 +67,7 @@
   					 American Crew
   				  </label>
 
-          <h2>Группы товаров:</h2>
+          <legend>Группы товаров:</legend>
             <label>
               <input type="radio" name="catalog-groups" value="shavings">
               Бритвенные принадлежности
@@ -89,32 +89,38 @@
   		  <div class="catalog-row">
         <!-- На сайте в Тренировке раззметки №1 было заявлено что правильный тэг для блоков с товарами  <article>, а не <div>. Последний только допустимый тэг. Хотя мне не очень понятно почему. -->
           <article class="catalog-item">
-  				  <img width="150" height="100" src="http://placehold.it/150x100" alt="">
-  				  Набор для путешествия<br>
-  				  <span>"Baxter of CAlifornia"</span>
+  				  <a href="#">
+              <img width="220" height="165" src="img/Catalog/catalog_item_1.jpg" alt="">
+              <span>Набор для путешествия</span><br>
+              <span>"Baxter of California"</span>    
+            </a>
             <!-- Тк надпись сделана заглавнями буквми, обернула в <span> чтобы потом стиизовать с помощью .catalog-item span {} -->
   				  <div class="add-to-cart">
-              2 900 руб.
+              <span>2 900 руб.</span>
               <a class="button" href="#">Купить</a>
   				  </div>
           </article>
 
           <article class="catalog-item">
-  				  <img width="150" height="100" src="http://placehold.it/150x100" alt="">
-  				  Увлажняющий кондиционер<br>
-  				  <span>"Baxter of California"</span>
+  				  <a href="#">
+              <img width="220" height="165" src="img/Catalog/catalog_item_2.jpg" alt="">
+              <span>Увлажняющий кондиционер</span><br>
+              <span>"Baxter of California"</span>    
+            </a>
   				  <div class="add-to-cart">
-              750 руб.
+              <span>750 руб.</span>
               <a class="button" href="#">Купить</a>
   				  </div>
           </article>
 
           <article class="catalog-item">
-  				  <img width="150" height="100" src="http://placehold.it/150x100" alt="">
-  				  Гель для волос<br>
-  				  <span>"Suavecito"</span>
+  				  <a href="#">
+              <img width="220" height="165" src="img/Catalog/catalog_item_3.jpg" alt="">
+              <span>Гель для волос</span><br>
+              <span>"Suavecito"</span>    
+            </a>
   				  <div class="add-to-cart">
-              290 руб.
+              <span>290 руб.</span>
               <a class="button" href="#">Купить</a>
   				  </div>
           </article>
@@ -122,31 +128,37 @@
 
   		  <div class="catalog-row">
           <article class="catalog-item">
-  				  <img width="150" height="100" src="http://placehold.it/150x100" alt="">
-  				  Глина для укладки волос<br>
-  				  <span>"American Crew"</span>
+  				  <a href="#">
+              <img width="220" height="165" src="img/Catalog/catalog_item_4.jpg" alt="">
+              <span>Глина для укладки волос</span><br>
+              <span>"American Crew"</span>    
+            </a>
   				  <div class="add-to-cart">
-              500 руб.
+              <span>500 руб.</span>
               <a class="button" href="#">Купить</a>
   				  </div>
           </article>
 
           <article class="catalog-item">
-  				  <img width="150" height="100" src="http://placehold.it/150x100" alt="">
-  				  Гель для волос<br>
-  				  <span>"American Crew"</span>
+  				  <a href="#">
+              <img width="220" height="165" src="img/Catalog/catalog_item_4.jpg" alt="">
+              <span>Гель для волос</span><br>
+              <span>"American Crew"</span>    
+            </a>
   				  <div class="add-to-cart">
-              300 руб.
+              <span>300 руб.</span>
               <a class="button" href="#">Купить</a>
   				  </div>
           </article>
 
           <article class="catalog-item">
-  				  <img width="150" height="100" src="http://placehold.it/150x100" alt="">
-  				  Набор для бритья<br>
-  				  <span>"Baxter of California"</span>
+  				  <a href="#">
+              <img width="220" height="165" src="img/Catalog/catalog_item_6.jpg" alt="">
+              <span>Набор для бритья</span><br>
+              <span>"Baxter of California"</span>    
+            </a>
   				  <div class="add-to-cart">
-              3 900 руб.
+              <span>3 900 руб.</span>
               <a class="button" href="#">Купить</a>
   				  </div>
   		    </article>
